@@ -13,3 +13,4 @@ print( texto[2] )
 # negativos -[987654321]
 nova_string = texto[2:6]
 print(nova_string)
+print( len(texto))   #quantas letras tem dentro das strings
