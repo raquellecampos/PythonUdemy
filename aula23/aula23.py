@@ -24,13 +24,17 @@ lista1.extend(lista2)  # lista1 extende a lista2
 lista2.append('b')   # insere um valor no final da lista
 lista2.insert(0, 'banana')  # insere um valor no local do índice indicado
 lista1.pop()  # remove o último elemento da lista
-del(lista2[0]) # deleta o objeto por fatiamento
+del(lista2[0]) # remove um trecho da lista por fatiamento
+print( max(lista2))
+print( min(lista2))
 
 
 print(lista1)
 print(lista2)
 
 ################################################
+
+###objeto iteravel = repetir, reiterar / for
 
 #l2 = list(range(0,100,8))
 l2 = [0,1,2,3,4,5,6,7,8,9]
